@@ -1,0 +1,42 @@
+# Colcon build artifacts
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# ROS 2 launch and config
+*.launch.py~
+*.yaml~
+
+compile_commands.json
+
+# Visual Studio Code settings (optional)
+.vscode/
+
+.cache/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Git and system files
+*.swp
+*.swo
+*.bak
+
+# Ignore secrets or keys if you store any
+*.key
+*.pem
+secrets/
+
+# CMake generated files
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+Makefile
