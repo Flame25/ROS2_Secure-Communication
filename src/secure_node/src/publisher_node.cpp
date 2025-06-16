@@ -289,7 +289,8 @@ private:
 
     // 🟢 Log to CSV
     std::ofstream log_file;
-    log_file.open("/home/gadzz/workspace/sign_enc_time.csv", std::ios::app);
+    log_file.open(std::string(getenv("HOME")) + "/sign_enc_time.csv",
+                  std::ios::app);
     if (log_file.is_open()) {
       log_file << elapsed_us << std::endl;
       log_file.close();

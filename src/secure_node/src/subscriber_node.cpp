@@ -221,7 +221,7 @@ private:
                 elapsed_us);
 
     // Log to CSV
-    std::ofstream log_file("/home/gadzz/workspace/dec_verify_time.csv",
+    std::ofstream log_file(std::string(getenv("HOME")) + "/dec_verify_time.csv",
                            std::ios::app);
     if (log_file.is_open()) {
       log_file << elapsed_us << std::endl;
