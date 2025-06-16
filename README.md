@@ -56,7 +56,7 @@ This repository contains a simple demonstration of secure communication in a ROS
     ```
     ros2 run secure_node subscriber_node
     ```
-7. (Optional) Change Key Pairs
+7. Generate Key Pairs
 
    I've set the key at ```src/secure_node/keys```. If you want to generate new key run the command below
 
@@ -69,3 +69,8 @@ This repository contains a simple demonstration of secure communication in a ROS
    ```
    openssl rsa -pubout -in private_key.pem -out public_key.pem
    ```
+
+   or
+
+   Just run the ```./generate_keys.sh```
+   
