@@ -10,6 +10,11 @@ This repository contains a simple demonstration of secure communication in a ROS
 - ❌ Attacker Simulation Node
 - 📊 Performance Benchmarking (encryption/decryption timing)
 
+## Documentation / Paper
+
+You can access the paper here: 
+https://www.overleaf.com/read/crwvqmcbntmc#e38196
+
 ## Dependencies
 
 - ROS 2 (tested on Humble, Ubuntu 22.04)
